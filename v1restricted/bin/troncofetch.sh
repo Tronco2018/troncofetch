@@ -5,7 +5,7 @@ echo \
 based=$(uname -o) #based lol
 osRelease=$(lsb_release -d | awk '{print $2 " " $3}') #os release (eg. Ubuntu, Mint ecc...)
 totmem=$(free -h | grep Mem | awk '{print $2}') #Memory size
-uptime=$(uptime -p | awk '{print $2 "h " $4 "min"}') #uptime
+uptime=$(uptime -p) #uptime
 cpumod=$(lscpu | grep "Model name" | awk -F: '{print $2}') #cpu model
 hostname=$(hostname) #hostname
 user=$(whoami) #username
