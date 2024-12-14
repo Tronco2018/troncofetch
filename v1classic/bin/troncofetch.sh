@@ -19,4 +19,5 @@ echo -e "\033[1;225m|CPU:\033[0m" $cpumod
 echo -e "\033[1;225m|Mem:\033[0m" $totmem
 echo -e "\033[1;225m|Uptime:\033[0m" $uptime
 echo -e "\033[1;225m|IP:\033[0m" $ip
+echo -e "\033[1;225m|Version:\033[0m" 2.0
 echo \
